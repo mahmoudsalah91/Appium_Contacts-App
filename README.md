@@ -1,11 +1,14 @@
 # Appium_Contacts-App
 
+# Contacts App Test Repository
+
 This repository contains automated test cases for the Contacts App, ensuring that all functionalities work as expected.
 
 ## Table of Contents
 1. [Test Framework Structure](#test-framework-structure)
    - [Framework Design](#framework-design)
    - [Configuration](#configuration)
+   - [ROI](#roi)
 2. [Test Cases](#test-cases)
    - [1. Add Valid Contact](#add-valid-contact)
 3. [Setup Instructions](#setup-instructions)
@@ -28,6 +31,14 @@ The framework is configured with the necessary dependencies, ensuring that it ca
 - **TestNG**: For test management
 - **Java Properties**: For configuration management
 - **Extent Reports**: For generating detailed test reports
+
+### ROI
+Investing in Appium and TestNG for test automation provides significant Return on Investment (ROI) through:
+
+1. **Cost Efficiency**: Open-source tools eliminate licensing fees, reducing overall project costs.
+2. **Cross-Platform Support**: Appium enables testing on both Android and iOS platforms using the same codebase, maximizing coverage and reducing redundancy.
+3. **Robust Test Management**: TestNG facilitates organized test execution and reporting, enhancing collaboration among team members and improving the speed of development cycles.
+4. **Scalability**: The modular design of the framework allows for easy scaling as new features are added, ensuring that test automation grows alongside the application.
 
 ## Test Cases
 
@@ -91,3 +102,4 @@ Ensure that the following is added to your `pom.xml`:
         <version>5.x.x</version>
     </dependency>
 </dependencies>
+
